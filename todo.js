@@ -29,11 +29,14 @@
 
  });
 
+
+
 //  delete todos
 list.addEventListener('click', e =>{
     if(e.target.classList.contains('delete')){
         e.target.parentElement.remove();
     }
+
 });
 
 const filterTodo = ((term) =>{
@@ -60,3 +63,5 @@ search.addEventListener('keyup', () =>{
     const term = search.value.trim().toLowerCase();
     filterTodo(term);
 });
+
+
