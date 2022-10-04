@@ -73,4 +73,4 @@ search.addEventListener('keyup', () => {
 });
 
 
-// Set up a local storage that would store todos in the user's browser
+
